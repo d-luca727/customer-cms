@@ -337,7 +337,7 @@ public class CustomerIT {
         assertThat(customerDTO.profileImageId()).isNullOrEmpty();
 
         Resource image = new ClassPathResource(
-                "%s.jpeg".formatted(gender.name().toLowerCase())
+                "%s.jpg".formatted(gender.name().toLowerCase())
         );
 
         MultipartBodyBuilder bodyBuilder = new MultipartBodyBuilder();
