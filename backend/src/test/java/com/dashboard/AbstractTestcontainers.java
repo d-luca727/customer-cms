@@ -35,6 +35,7 @@ public abstract class AbstractTestcontainers {
                     .withUsername("dashboard")
                     .withPassword("password");
 
+
     @DynamicPropertySource
     private static void registerDataSourceProperties(
             DynamicPropertyRegistry registry) {
